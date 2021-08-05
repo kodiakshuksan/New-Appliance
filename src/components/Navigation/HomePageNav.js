@@ -14,18 +14,26 @@ const HomePageNav = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
+  const businessName = {
+    paddingLeft: "10px",
+    color: "#4e342e"
+}
+
+const businessNameStyle = {
+    color: "#4e342e"
+}
   
   
 
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Mathias Appliances</NavbarBrand>
+        <NavbarBrand style={businessName} href="/">Mathias Appliances</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto nav justify-content-center" navbar>
             <NavItem>
-              <NavLink href="/StoreInfoPage">Store Info</NavLink>
+              <NavLink style={businessNameStyle} href="/StoreInfoPage">Store Info</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

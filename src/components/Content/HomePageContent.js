@@ -16,7 +16,8 @@ const HomePageContent = () => {
         fontSize: "16px",
         fontWeight: "500",
         position: "absolute",
-        bottom: "-12px"
+        bottom: "-12px",
+        color: "#4e342e"
     }
 
 
@@ -26,7 +27,7 @@ const HomePageContent = () => {
             
         
             <img src={landingPagePic} style={img} alt=""/>
-            <p style={copyrightInfo}>@ Copyright 2012 Petal Tech Solutions</p>
+            <p style={copyrightInfo}>@ Copyright 2021 Petal Tech Solutions</p>
                     
         </Container>
                 

@@ -13,9 +13,15 @@ const StoreInfoNav = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-    const businessName = {
-        paddingLeft: "10px"
-    }
+
+  const businessName = {
+        paddingLeft: "10px",
+        color: "#4e342e"
+        }
+   
+   const businessNameStyle = {
+        color: "#4e342e"
+}
 
   return (
     <div>
@@ -25,10 +31,10 @@ const StoreInfoNav = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/HomePage">Home</NavLink>
+              <NavLink style={businessNameStyle} href="/HomePage">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://offerup.com/p/21498274" target="_blank" rel="noopener noreferrer">Browse Inventory</NavLink>
+              <NavLink style={businessNameStyle} href="https://offerup.com/p/21498274" target="_blank" rel="noopener noreferrer">Browse Inventory</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

@@ -17,7 +17,8 @@ const StoreInfoContent = () => {
 
     const storeInfo = {
         fontWeight: "500",
-        position: "relative"
+        position: "relative",
+        color: "#4e342e"
    
     }
 
@@ -25,8 +26,8 @@ const StoreInfoContent = () => {
         fontSize: "16px",
         fontWeight: "500",
         position: "absolute",
-        bottom: "0px"
- 
+        bottom: "0px",
+        color: "#4e342e"
     }
 
 
@@ -42,11 +43,11 @@ const StoreInfoContent = () => {
                         <div style={storeInfo}>
                             <p>Location: 15413-1st Ave. Ct. South Blg. G, Tacoma, WA 98444</p>
                             <p>Showroom Hours: By Appointment</p>
-                            <p>Phone Number:1-443-949-2766</p>
+                            <p>Phone Number: 1-443-949-2766</p>
                         </div>
 
                         <div>
-                            <h4 style={copyrightInfo}>@ Copyright 2012 Petal Tech Solutions</h4>
+                            <h4 style={copyrightInfo}>@ Copyright 2021 Petal Tech Solutions</h4>
                         </div>
                         
             </Container>
