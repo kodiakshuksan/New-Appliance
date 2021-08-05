@@ -47,9 +47,9 @@ const StoreInfoContent = () => {
     
             
                     <img style={img} src={storeInfoPic} alt=""/>
-                        <Row>
-                          
-                        
+                        <Row xs="2">
+                          <Col></Col>
+                          <Col></Col>
                             <Col>
                         
                     

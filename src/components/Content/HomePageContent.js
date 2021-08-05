@@ -1,3 +1,4 @@
+
 import React from 'react';
 import landingPagePic from "../../assets/images/landingPagePic.jpg";
 import { Container } from 'reactstrap';
@@ -18,7 +19,8 @@ const HomePageContent = () => {
         position: "absolute",
         bottom: "-10px",
         color: "#4e342e",
-        textAlign: "center"
+        textAlign: "center",
+        marginRight: "60px"
     }
 
 
