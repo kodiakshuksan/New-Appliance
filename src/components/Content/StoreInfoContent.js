@@ -11,9 +11,7 @@ const StoreInfoContent = () => {
         height: "664px",
         position: "absolute",
         backgroundPosition: "bottom"
-      
-    
-    }
+      }
 
     const storeInfo = {
         fontWeight: "500",
@@ -21,25 +19,9 @@ const StoreInfoContent = () => {
         color: "#4e342e",
         justifyContent: "left",
         fontSize: "18px"
+    }
+
    
-    }
-
-    const copyrightInfo = {
-        fontSize: "16px",
-        fontWeight: "500",
-        position: "absolute",
-        bottom: "-3px",
-        color: "#4e342e"
-    }
-    
-
-
-    const copyrightStyle = {
-        textAlign: "center"
-    
-    }
-    
-
 
     return (
         
@@ -61,9 +43,7 @@ const StoreInfoContent = () => {
                         </Col>
                         </Row>
 
-                        <div style={copyrightStyle}>
-                            <h4 style={copyrightInfo}>@ Copyright 2021 Petal Tech Solutions</h4>
-                        </div>
+                       
                         
             </Container>
             
