@@ -1,6 +1,6 @@
 import React from 'react';
 import landingPagePic from "../../assets/images/landingPagePic.jpg";
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 
 const HomePageContent = () => {

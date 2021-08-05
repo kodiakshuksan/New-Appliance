@@ -28,7 +28,7 @@ const StoreInfoNav = (props) => {
               <NavLink href="/HomePage">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://offerup.com/p/21498274">Browse Inventory</NavLink>
+              <NavLink href="https://offerup.com/p/21498274" target="_blank" rel="noopener noreferrer">Browse Inventory</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

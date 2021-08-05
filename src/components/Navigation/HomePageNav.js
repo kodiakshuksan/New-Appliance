@@ -6,8 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  PaginationLink
+  NavLink
 } from 'reactstrap';
 
 const HomePageNav = (props) => {
