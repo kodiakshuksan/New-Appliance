@@ -8,7 +8,7 @@ const HomePageContent = () => {
    
     const img = {
         width: "100%",
-        height: "700px",
+        height: "665px",
         backgroundPosition: "bottom"
     }
 
@@ -16,7 +16,7 @@ const HomePageContent = () => {
         fontSize: "16px",
         fontWeight: "500",
         position: "absolute",
-        bottom: "-12px",
+        bottom: "-10px",
         color: "#4e342e"
     }
 
