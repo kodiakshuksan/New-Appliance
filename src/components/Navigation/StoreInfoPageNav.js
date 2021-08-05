@@ -13,11 +13,14 @@ const StoreInfoNav = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
+    const businessName = {
+        paddingLeft: "10px"
+    }
 
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Mathias Appliances</NavbarBrand>
+        <NavbarBrand style={businessName} href="/">Mathias Appliances</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

@@ -6,7 +6,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
+  NavLink,
+  PaginationLink
 } from 'reactstrap';
 
 const HomePageNav = (props) => {
@@ -14,13 +15,16 @@ const HomePageNav = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
+  
+  
+
   return (
     <div>
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">Mathias Appliances</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav className="mr-auto nav justify-content-center" navbar>
             <NavItem>
               <NavLink href="/StoreInfoPage">Store Info</NavLink>
             </NavItem>
