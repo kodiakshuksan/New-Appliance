@@ -17,7 +17,8 @@ const HomePageContent = () => {
         fontWeight: "500",
         position: "absolute",
         bottom: "-10px",
-        color: "#4e342e"
+        color: "#4e342e",
+        textAlign: "center"
     }
 
 
