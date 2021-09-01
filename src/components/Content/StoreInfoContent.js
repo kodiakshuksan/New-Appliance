@@ -7,10 +7,11 @@ const StoreInfoContent = () => {
     
   
     const img = {
-        width: "85%",
-        height: "665px",
-        position: "absolute",
-        backgroundPosition: "bottom"
+        height: "100%",
+        width: "900px",
+        
+  
+        justifyContent: "center"
       }
 
     const storeInfo = {
@@ -21,13 +22,18 @@ const StoreInfoContent = () => {
         fontSize: "18px"
     }
 
+    const storeContainer = {
+        marginRight: "55px",
+        marginLeft: "55px"
+    }
+
    
 
     return (
         
             <Container>
     
-            
+                <div style={storeContainer}>
                     <img style={img} src={storeInfoPic} alt=""/>
                         <Row xs="2">
                           <Col></Col>
@@ -40,7 +46,7 @@ const StoreInfoContent = () => {
                                     </div>
                                 </Col>
                         </Row>
-
+                </div>
             </Container>
             
         

@@ -8,7 +8,6 @@ const Footer = () => {
         position: "relative",
         color: "#4e342e",
         marginTop:   "500px"
-    
     }
 
     return (

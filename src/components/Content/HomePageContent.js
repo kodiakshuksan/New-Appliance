@@ -8,9 +8,18 @@ const HomePageContent = () => {
    
    
     const img = {
-        width: "100%",
-        height: "665px",
-        backgroundPosition: "bottom"
+       height: "100%",
+       width: "100%"
+    
+      
+    }
+
+    const imgContainer = {
+        marginRight: "55px",
+        marginLeft: "55px",
+        justifyContent: "center",
+        alignContent: "center",
+        height: "900px"
     }
 
 
@@ -19,9 +28,9 @@ const HomePageContent = () => {
         
         <Container>
             
-        
-            <img src={landingPagePic} style={img} alt=""/>
-           
+           <div style={imgContainer}>
+                <img src={landingPagePic} style={img} alt=""/>
+           </div>
                     
         </Container>
                 
