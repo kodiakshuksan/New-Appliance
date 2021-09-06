@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 const HomePageNav = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,29 +16,32 @@ const HomePageNav = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   const businessName = {
-    paddingLeft: "10px",
+    paddingLeft: "20px",
     color: "#4e342e"
 }
 
 const businessNameStyle = {
-    color: "#4e342e"
+    color: "#4e342e", 
+    fontWeight: "400px"
 }
   
   
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand style={businessName} href="/">Mathias Appliances</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto nav justify-content-center" navbar>
-            <NavItem>
-              <NavLink style={businessNameStyle} href="/StoreInfoPage">Store Info</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
+      
+        <Navbar color="light" light expand="md">
+          <NavbarBrand style={businessName} href="/">Mathias Appliances</NavbarBrand>
+            <NavbarToggler onClick={toggle} />
+              <Collapse isOpen={isOpen} navbar>
+                <Nav className="mr-auto nav justify-content-center" navbar>
+                  <NavItem>
+                    <NavLink style={businessNameStyle} href="/StoreInfoPage">Store Info</NavLink>
+                  </NavItem>
+              </Nav>
+            </Collapse>
+        </Navbar>
+      
     </div>
   );
 }

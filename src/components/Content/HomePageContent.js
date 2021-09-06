@@ -8,18 +8,15 @@ const HomePageContent = () => {
    
    
     const img = {
-       height: "100%",
-       width: "100%"
-    
+       height: "700px",
+       width: "600px",
       
     }
 
     const imgContainer = {
-        marginRight: "55px",
-        marginLeft: "55px",
-        justifyContent: "center",
-        alignContent: "center",
-        height: "900px"
+        margin: "auto",
+      
+        maxWidth: "1000px"
     }
 
 

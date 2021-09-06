@@ -8,10 +8,8 @@ const StoreInfoContent = () => {
   
     const img = {
         height: "100%",
-        width: "900px",
-        
-  
-        justifyContent: "center"
+        width: "100%",
+        position: "absolute"
       }
 
     const storeInfo = {
@@ -24,7 +22,10 @@ const StoreInfoContent = () => {
 
     const storeContainer = {
         marginRight: "55px",
-        marginLeft: "55px"
+        marginLeft: "55px",
+        justifyContent: "center",
+        alignContent: "center",
+        height: "900px"
     }
 
    
